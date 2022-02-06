@@ -6,32 +6,32 @@ using System.Threading.Tasks;
 
 namespace Week1
 {
-    class Rechthoek
+    class Driehoek
     {
-        private int lengte;
+        private int basis;
 
-        public int Lengte
+        public int Basis
         {
-            get { return lengte; }
+            get { return basis; }
             set
             {
                 if (value >= 1)
                 {
-                    lengte = value;
+                    basis = value;
                 }
             }
         }
 
-        private int breedte;
+        private int hoogte;
 
-        public int Breedte
+        public int Hoogte
         {
-            get { return breedte; }
+            get { return hoogte; }
             set
             {
                 if (value >= 1)
                 {
-                    breedte = value;
+                    hoogte = value;
                 }
             }
         }
@@ -39,11 +39,10 @@ namespace Week1
         public void ToonOppervlakte()
         {
             //opervlakte berekenen: 
-            Console.WriteLine("Rechthoek");
-            Console.WriteLine($"Lengte:     {lengte}");
-            Console.WriteLine($"Breedte:    {breedte}\n");
-            Console.WriteLine($"Oppervlakte: {breedte*lengte}");
-
+            Console.WriteLine("Driehoek");
+            Console.WriteLine($"Hoogte:     {hoogte}");
+            Console.WriteLine($"basis:    {basis}\n");
+            Console.WriteLine($"Oppervlakte: {(basis*hoogte)/2}");
         }
 
     }

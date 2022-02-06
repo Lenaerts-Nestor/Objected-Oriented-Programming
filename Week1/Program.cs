@@ -51,7 +51,19 @@ namespace Week1
             peperonie.text();
             */
 
-            //Figuren
+            //Figuren: Rechthoek
+
+            Rechthoek eerste = new Rechthoek();
+            eerste.Lengte = 4;
+            eerste.Breedte = 5;
+            eerste.ToonOppervlakte();
+            Console.WriteLine("\n");
+            Driehoek tweede = new Driehoek();
+
+            tweede.Basis = 5;
+            tweede.Hoogte = 7;
+            tweede.ToonOppervlakte();
+
 
 
         }
