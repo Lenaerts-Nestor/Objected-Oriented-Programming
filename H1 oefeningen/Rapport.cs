@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Week1
+namespace H1_oefeningen
 {
     class Rapport
     {
@@ -9,7 +9,7 @@ namespace Week1
         {
             if (Percentage < 50)
             {
-                Console.WriteLine("Niet geslaagd");
+                Console.WriteLine("niet geslaagd");
             }
             else if (Percentage >= 50 && Percentage <= 68)
             {
@@ -21,15 +21,15 @@ namespace Week1
             }
             else if (Percentage > 75 && Percentage <= 85)
             {
-                Console.WriteLine("Grote onderscheiding");
+                Console.WriteLine("Grote Onderscheiding");
             }
             else if (Percentage > 85)
             {
-                Console.WriteLine("Grootste onderscheiding");
+                Console.WriteLine("Grootste Onderscheiding");
             }
-
-
         }
+
+
 
 
     }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Week2
 {
@@ -14,11 +10,11 @@ namespace Week2
         private DateTime GetDate;
 
         public DateTime geboorteDatum
-        {   
+        {
             get { return GetDate; }
             set
             {
-                if (value > new DateTime(1/1/1990) && value < DateTime.Today)
+                if (value > new DateTime(1 / 1 / 1990) && value < DateTime.Today)
                 {
                     GetDate = value;
                 }
@@ -49,6 +45,6 @@ namespace Week2
             set { myVar = value; }
         }
 
-        
+
     }
 }

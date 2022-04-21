@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace H3_MAIN
+namespace Alles_samen_H1_H4
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
         }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31515.178
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week1", "Week1\Week1.csproj", "{9FE3436F-4C52-4C6B-B616-8BE6E8AEA191}"
 EndProject
@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H2 MAIN", "H2 Program (main
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "H3", "H3", "{2AE50AC9-37C9-4522-9033-E01272F85138}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H3 MAIN", "H3 MAIN\H3 MAIN.csproj", "{51EE2EB7-B1BC-413E-A337-6E0E5D73095B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H3 MAIN", "H3 MAIN\H3 MAIN.csproj", "{51EE2EB7-B1BC-413E-A337-6E0E5D73095B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "H4", "H4", "{203304FA-6D17-4D2A-B705-A2A3AA7EEE55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays en Klassen", "Arrays en Klassen\Arrays en Klassen.csproj", "{591B731F-6702-4EE5-8ECF-65B57E0A92D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alles samen H1-H4", "Alles samen H1-H4\Alles samen H1-H4.csproj", "{1A16C171-0E21-4729-92ED-10F2C4AD9A20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,14 @@ Global
 		{51EE2EB7-B1BC-413E-A337-6E0E5D73095B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51EE2EB7-B1BC-413E-A337-6E0E5D73095B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51EE2EB7-B1BC-413E-A337-6E0E5D73095B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591B731F-6702-4EE5-8ECF-65B57E0A92D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591B731F-6702-4EE5-8ECF-65B57E0A92D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591B731F-6702-4EE5-8ECF-65B57E0A92D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591B731F-6702-4EE5-8ECF-65B57E0A92D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A16C171-0E21-4729-92ED-10F2C4AD9A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A16C171-0E21-4729-92ED-10F2C4AD9A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A16C171-0E21-4729-92ED-10F2C4AD9A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A16C171-0E21-4729-92ED-10F2C4AD9A20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +62,7 @@ Global
 		{B3A09661-D15D-4C83-A30C-7176A37D2940} = {CA07FE43-6CB7-4C73-BD80-D58977D23A52}
 		{723C9B58-D281-4175-B885-5CC6219E418B} = {A98605C7-BB5C-40DF-A0D4-926F49735DF9}
 		{51EE2EB7-B1BC-413E-A337-6E0E5D73095B} = {2AE50AC9-37C9-4522-9033-E01272F85138}
+		{591B731F-6702-4EE5-8ECF-65B57E0A92D8} = {203304FA-6D17-4D2A-B705-A2A3AA7EEE55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4534C0F5-90ED-42C3-9878-EA295FF5839F}

@@ -6,20 +6,28 @@ namespace H2_Program__main_
     {
         static void Main(string[] args)
         {
-            
 
-            //om te testen de eerste deel, de nummers verander randomly.
-            Bankmanager_2 eersteRekening = new Bankmanager_2();
-            Bankmanager_2 tweedeRekening = new Bankmanager_2();
-            eersteRekening.NaamKlant = "Pedro";
-            tweedeRekening.NaamKlant = "Leo";
-            eersteRekening.SimuleerOverdtacht(eersteRekening, tweedeRekening);
+            Pokemon pikachu = new Pokemon();
+            pikachu.Naam = "Pickachu";
+            pikachu.SpecialAttack_Base = 3;
+            pikachu.Attack_Base = 5;
+            pikachu.Defense_Base = 4;
+            pikachu.HP_Base = 15;
+            pikachu.SpDefense_Base = 7;
 
-            //het deel van de Tiener
-            Bankmanager_2 TienerAccounts = new Bankmanager_2();
-            Bankmanager_2 Luciana = TienerAccounts.CreerTienerRekening("luciana");
-            Luciana.ToonInfo();
-            
+
+
+
+            //level-up tester
+
+            for (int i = 0; i < 50; i++)
+            {
+                pikachu.ShowInfo();
+                pikachu.VerhoogLevel();
+                Console.WriteLine("\n");
+            }
+
+
 
         }
     }

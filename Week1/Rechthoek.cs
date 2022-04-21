@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Week1
 {
@@ -42,7 +38,7 @@ namespace Week1
             Console.WriteLine("Rechthoek");
             Console.WriteLine($"Lengte:     {lengte}");
             Console.WriteLine($"Breedte:    {breedte}\n");
-            Console.WriteLine($"Oppervlakte: {breedte*lengte}");
+            Console.WriteLine($"Oppervlakte: {breedte * lengte}");
 
         }
 

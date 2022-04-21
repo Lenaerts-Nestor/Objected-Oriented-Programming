@@ -51,6 +51,7 @@ namespace Week1
             peperonie.text();
             */
 
+
             //Figuren: Rechthoek
 
             Rechthoek eerste = new Rechthoek();

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace H2_Program__main_
 {
@@ -22,7 +18,7 @@ namespace H2_Program__main_
 
         public string NaamKlant { get; set; }
         public string RekeningNummer { get; set; }
-       
+
         //enum methode
         public RekeningStaat Staat { get; private set; } = RekeningStaat.Geldig;
         //methoden
@@ -96,9 +92,9 @@ namespace H2_Program__main_
             Random gekozenRekening = new Random();
             for (int i = 0; i < 5; i++)
             {
-               
+
                 //PERSOON WORDT RANDOMLY GEKOZEN.
-                int gekozenPersoon = gekozenRekening.Next(0,2);
+                int gekozenPersoon = gekozenRekening.Next(0, 2);
                 Console.WriteLine($"random nummer voor rekening is: {gekozenPersoon}");
                 //ik heb extra INFORMATIE DERBIJ GEDAAN VOOR VISUELE DUIDELIJKHEID.
                 if (gekozenPersoon == 0)
@@ -124,13 +120,13 @@ namespace H2_Program__main_
             Console.WriteLine("random transacties zijn voorbij");
         }
 
-        public Bankmanager_2 CreerTienerRekening( string naam)
+        public Bankmanager_2 CreerTienerRekening(string naam)
         {
             Bankmanager_2 Tiener = new Bankmanager_2();
             Tiener.NaamKlant = naam;
             Tiener.balans = 50;
             return Tiener;
-            
+
         }
 
     }

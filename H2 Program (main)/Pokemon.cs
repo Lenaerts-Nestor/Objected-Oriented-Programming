@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace H2_Program__main_
 {
@@ -31,7 +27,7 @@ namespace H2_Program__main_
             get { return defense_Base; }
             set { defense_Base = value; }
         }
-        public int SpAttack_Base
+        public int SpecialAttack_Base
         {
             get { return specialAttack_Base; }
             set { specialAttack_Base = value; }
@@ -52,9 +48,9 @@ namespace H2_Program__main_
         public string Naam { get; set; }
         public string Type { get; set; }
 
-       
+
         //Level
-        private int level;
+        private int level = 1;
         public int Level
         {
             get { return level; }
@@ -70,45 +66,47 @@ namespace H2_Program__main_
         //statistieken
         public int Average
         {
-            get { return (HP_Base + Attack_Base + Defense_Base + SpAttack_Base + SpDefense_Base + Speed_Base) / 6; }
+            get { return (HP_Base + Attack_Base + Defense_Base + SpecialAttack_Base + SpDefense_Base + Speed_Base) / 6; }
         }
-        public int Totaal {
-            get { return (HP_Base + Attack_Base + Defense_Base + SpAttack_Base + SpDefense_Base + Speed_Base); }
+        public int Totaal
+        {
+            get { return (HP_Base + Attack_Base + Defense_Base + SpecialAttack_Base + SpDefense_Base + Speed_Base); }
         }
 
         //Level-gebaseerd stats
 
-        public int HP_Full {
+        public int HP_Full
+        {
 
-            get { return (((HP_Base + 50) * Level) / 50) + 10; }
-        
+            get { return ((hp_Base + 50) * Level / 50) + 10; }
+
         }
 
         public int Attack_ull
         {
 
-            get { return ((Attack_Base * Level) / 50) +5; }
+            get { return ((Attack_Base * Level) / 50) + 5; }
 
         }
 
         public int Defense_Full
         {
 
-            get { return ((Defense_Base * Level) / 50) +5;  }
+            get { return ((Defense_Base * Level) / 50) + 5; }
 
         }
 
         public int SpAttack_Full
         {
 
-            get { return ((SpAttack_Base * Level) / 50) + 5;  }
+            get { return ((SpecialAttack_Base * Level) / 50) + 5; }
 
         }
 
         public int SpDefense_Full
         {
 
-            get { return ((SpDefense_Base * Level) / 50) + 5;  }
+            get { return ((SpDefense_Base * Level) / 50) + 5; }
 
         }
         public int Speed_Full
@@ -117,5 +115,15 @@ namespace H2_Program__main_
             get { return ((Speed_Base * Level) / 50) + 5; }
 
         }
+
+
+        public void ShowInfo()
+        {                                                                                                                           //2 groepje
+            Console.WriteLine($"{Naam} (level {level})\nBase stats:\n \t* Health = {HP_Base}\n\t* DPS = {attack_Base}\n \t* DF = {defense_Base}\n\t* Speed = {speed_Base}\n\t* SPDF = {specialDefense_Base}\n\t* SPAT = {specialAttack_Base}\n");
+            Console.WriteLine($"Full stats:\n\t* Health = {HP_Full}\n\t* DPS = {Attack_ull}\n \t* DF = {Defense_Full}\n\t* Speed = {Speed_Full}\n\t* SPDF = {SpDefense_Full}\n\t* SPAT = {SpAttack_Full}\n");
+        }
+
+
+
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Week2
 
@@ -23,7 +19,7 @@ namespace Week2
         public string NaamKlant { get; set; }
         public string RekeningNummer { get; set; }
         //Deel2 
-         
+
         public RekeningStaat Staat { get; private set; } = RekeningStaat.Geldig;
 
 
@@ -86,7 +82,7 @@ namespace Week2
             Console.WriteLine($"Naam:\t {NaamKlant}");
             Console.WriteLine($"RekeningsNr:\t {RekeningNummer}");
             Console.WriteLine($"Balans:\t {balans}");
-        
+
 
 
         }
