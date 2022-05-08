@@ -67,5 +67,25 @@ namespace H3_MAIN
             return false;
         }
 
+
+        public static void BruteForce(DigitaleKlius testKluis)
+        {
+
+            Random rng = new Random();
+            bool gevonden = false;
+            int tries = 0;
+            do
+            {
+                tries++;
+                int test = rng.Next(0, 10000);
+                if (testKluis.TryCode(test))
+                {
+                    gevonden = true;
+                    Console.WriteLine($"Gevonden! Code is {test}");
+                }
+            } while (tries < 10 && !gevonden);
+
+}
+
     }
 }

@@ -19,6 +19,13 @@ namespace H3_MAIN
             }
 
             eerste.TryCode(-666); // om te kijken als de error verschijn van CHEATER
+
+
+
+
+            ;
+
+
         }
     }
 }
