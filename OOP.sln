@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Overerving ZiekenHuis", "Ov
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "H6", "H6", "{03F6F6EE-D119-4B06-990D-3A8E189EFCC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gevorderde overervingsconcepten", "Gevorderde overervingsconcepten\Gevorderde overervingsconcepten.csproj", "{443DB2D1-F15A-48CB-B1A0-BC538481245D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gevorderde overervingsconcepten", "Gevorderde overervingsconcepten\Gevorderde overervingsconcepten.csproj", "{443DB2D1-F15A-48CB-B1A0-BC538481245D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gevorderde overervingsconcepten Money", "Gevorderde overervingsconcepten Money\Gevorderde overervingsconcepten Money.csproj", "{D5BE2FEC-02A6-4E78-BECB-0C8F94E99991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gevorderde overervingsconcepten Geometric figures", "Gevorderde overervingsconcepten Geometric figures\Gevorderde overervingsconcepten Geometric figures.csproj", "{49A2309E-678B-4C20-AC79-F3E4E5EB14DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +81,14 @@ Global
 		{443DB2D1-F15A-48CB-B1A0-BC538481245D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{443DB2D1-F15A-48CB-B1A0-BC538481245D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{443DB2D1-F15A-48CB-B1A0-BC538481245D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BE2FEC-02A6-4E78-BECB-0C8F94E99991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BE2FEC-02A6-4E78-BECB-0C8F94E99991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BE2FEC-02A6-4E78-BECB-0C8F94E99991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BE2FEC-02A6-4E78-BECB-0C8F94E99991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A2309E-678B-4C20-AC79-F3E4E5EB14DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A2309E-678B-4C20-AC79-F3E4E5EB14DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A2309E-678B-4C20-AC79-F3E4E5EB14DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A2309E-678B-4C20-AC79-F3E4E5EB14DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +103,8 @@ Global
 		{29F92E22-A797-4748-97A4-3ACD3EB5650D} = {30E0B402-D78A-43B2-ADE5-5A453052E524}
 		{2803F844-29DA-4966-A1ED-CE8C3BCF214D} = {30E0B402-D78A-43B2-ADE5-5A453052E524}
 		{443DB2D1-F15A-48CB-B1A0-BC538481245D} = {03F6F6EE-D119-4B06-990D-3A8E189EFCC8}
+		{D5BE2FEC-02A6-4E78-BECB-0C8F94E99991} = {03F6F6EE-D119-4B06-990D-3A8E189EFCC8}
+		{49A2309E-678B-4C20-AC79-F3E4E5EB14DC} = {03F6F6EE-D119-4B06-990D-3A8E189EFCC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4534C0F5-90ED-42C3-9878-EA295FF5839F}
