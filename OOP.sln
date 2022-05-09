@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H3 MAIN", "H3 MAIN\H3 MAIN.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "H4", "H4", "{203304FA-6D17-4D2A-B705-A2A3AA7EEE55}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays en Klassen", "Arrays en Klassen\Arrays en Klassen.csproj", "{591B731F-6702-4EE5-8ECF-65B57E0A92D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H4 Arrays en Klassen", "Arrays en Klassen\H4 Arrays en Klassen.csproj", "{591B731F-6702-4EE5-8ECF-65B57E0A92D8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alles samen H1-H4", "Alles samen H1-H4\Alles samen H1-H4.csproj", "{1A16C171-0E21-4729-92ED-10F2C4AD9A20}"
 EndProject
@@ -33,7 +33,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H5 ZiekenHuis", "Overerving
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "H6", "H6", "{03F6F6EE-D119-4B06-990D-3A8E189EFCC8}"
 EndProject
-<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H6 Gevorderde overervingsconcepten", "Gevorderde overervingsconcepten\H6 Gevorderde overervingsconcepten.csproj", "{443DB2D1-F15A-48CB-B1A0-BC538481245D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H6  Money Money Money", "Gevorderde overervingsconcepten Money\H6  Money Money Money.csproj", "{D5BE2FEC-02A6-4E78-BECB-0C8F94E99991}"
@@ -42,10 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H6  Geometric figures", "Ge
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "H7", "H7", "{3209568D-6235-4673-87B7-70946AE01551}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H7_Politiek", "H7_Politiek\H7_Politiek.csproj", "{C575EB82-D249-4165-8B1D-8995E4769507}"
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gevorderde overervingsconcepten", "Gevorderde overervingsconcepten\Gevorderde overervingsconcepten.csproj", "{443DB2D1-F15A-48CB-B1A0-BC538481245D}"
->>>>>>> parent of e706af1 (update)
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H7_Politiek", "H7_Politiek\H7_Politiek.csproj", "{C575EB82-D249-4165-8B1D-8995E4769507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gevorderde overervingsconcepten", "Gevorderde overervingsconcepten\Gevorderde overervingsconcepten.csproj", "{66AAF8A4-A40D-4B72-ACC9-0EAEAC02125D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,7 +87,6 @@ Global
 		{443DB2D1-F15A-48CB-B1A0-BC538481245D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{443DB2D1-F15A-48CB-B1A0-BC538481245D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{443DB2D1-F15A-48CB-B1A0-BC538481245D}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{D5BE2FEC-02A6-4E78-BECB-0C8F94E99991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D5BE2FEC-02A6-4E78-BECB-0C8F94E99991}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5BE2FEC-02A6-4E78-BECB-0C8F94E99991}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -102,8 +99,6 @@ Global
 		{C575EB82-D249-4165-8B1D-8995E4769507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C575EB82-D249-4165-8B1D-8995E4769507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C575EB82-D249-4165-8B1D-8995E4769507}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> parent of e706af1 (update)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,12 +113,9 @@ Global
 		{29F92E22-A797-4748-97A4-3ACD3EB5650D} = {30E0B402-D78A-43B2-ADE5-5A453052E524}
 		{2803F844-29DA-4966-A1ED-CE8C3BCF214D} = {30E0B402-D78A-43B2-ADE5-5A453052E524}
 		{443DB2D1-F15A-48CB-B1A0-BC538481245D} = {03F6F6EE-D119-4B06-990D-3A8E189EFCC8}
-<<<<<<< HEAD
 		{D5BE2FEC-02A6-4E78-BECB-0C8F94E99991} = {03F6F6EE-D119-4B06-990D-3A8E189EFCC8}
 		{49A2309E-678B-4C20-AC79-F3E4E5EB14DC} = {03F6F6EE-D119-4B06-990D-3A8E189EFCC8}
 		{C575EB82-D249-4165-8B1D-8995E4769507} = {3209568D-6235-4673-87B7-70946AE01551}
-=======
->>>>>>> parent of e706af1 (update)
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4534C0F5-90ED-42C3-9878-EA295FF5839F}
