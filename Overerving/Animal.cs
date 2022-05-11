@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Overerving
+namespace H5_HetDierenRijk
 {
     class Animal        //DIT is het Parent section
     {
@@ -49,10 +49,10 @@ namespace Overerving
     class Dog : Mammal
     {
         public string Naam { get; set; }
-        
+
         public override void ToonInfo()
         {
-            
+
             base.ToonInfo();
             Console.Write($"deze honds naam is: ");
             Console.ForegroundColor = ConsoleColor.Green;
@@ -63,10 +63,10 @@ namespace Overerving
     }
 
 
-    
+
 
     //Reptile Section (zelfde doen zoals die van Mamals...)
-    class Reptile : Animal      
+    class Reptile : Animal
     {
 
     }
