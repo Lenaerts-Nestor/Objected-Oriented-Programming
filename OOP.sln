@@ -43,8 +43,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "H7", "H7", "{3209568D-6235-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H7_Politiek", "H7_Politiek\H7_Politiek.csproj", "{C575EB82-D249-4165-8B1D-8995E4769507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gevorderde overervingsconcepten", "Gevorderde overervingsconcepten\Gevorderde overervingsconcepten.csproj", "{66AAF8A4-A40D-4B72-ACC9-0EAEAC02125D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
